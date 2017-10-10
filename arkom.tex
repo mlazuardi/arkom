@@ -44,7 +44,7 @@
 %% Graphicx.sty for Including PostScript .eps files
 
 \usepackage{graphicx}
-
+\usepackage{enumitem}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Other packages you might want to use:
@@ -262,12 +262,30 @@ Arsitektur Komputer / Rolly Maulana Awangga
 %% Short version of title without \\ may be written in sq. brackets:
 
 %% Optional Part :
-\part[Arsitektur Dasar Komputer]
-{Arsitektur Komputer\\ Dasar}
+\part[Definisi dan Software]
+{Arsitektur Komputer\\ Software}
 
-\chapter[Pendahuluan]
-{Pengantar\\ Arsitektur Komputer}
-\input{chapter/1.tex}
+
+%\chapter[Windows]
+%{Software\\ windows}
+%\input{chapter/Windows.tex}
+
+\chapter[Linux]
+{Software\\ linux}
+\input{chapter/Linux.tex}
+
+\chapter[Macintosh]
+{Software\\ mac}
+\input{chapter/Macintosh.tex}
+
+%\chapter[Free BSD]
+%{Software\\ bsd}
+%\input{chapter/bsd.tex}
+
+%\chapter[Android]
+%{Software\\ android}
+%\input{chapter/android.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional prologue or prologues
@@ -379,7 +397,7 @@ Arsitektur Komputer / Rolly Maulana Awangga
 
 
 \bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv,mybibfile}
+\bibliography{IEEEabrv,windows,linux,mac,android}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% INDEX: Use only one index command set:
