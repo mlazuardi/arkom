@@ -277,9 +277,9 @@ Arsitektur Komputer / Rolly Maulana Awangga
 %{Software\\ hardware}
 %\input{chapter/hardware.tex}
 
-%\chapter[Kernel]
-%{Software\\ kernel}
-%\input{chapter/kernel.tex}
+\chapter[Kernel]
+{Software\\ kernel}
+\input{chapter/kernel.tex}
 
 \chapter[Perintah DOS dan UNIX]
 {Software\\ DOS dan UNIX}
@@ -329,139 +329,22 @@ Arsitektur Komputer / Rolly Maulana Awangga
 %\input{chapter/storage.tex}
 
 
+%\chapter[Modem]
+%{Hardware\\ modem}
+%\input{chapter/modem56k.tex}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% optional prologue or prologues
-% \chapter{Chapter Title}
-% \prologue{<text>}{<author attribution>}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Edited Book: Author and Affiliation
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% After \chapter{Chapter Title}, you can
-% enter the author name and embed the affiliation with
-% \chapterauthors{(author name, or names)
-% \chapteraffil{(affiliation or affiliations)}
-% }    
-
-% For instance:
-% \chapter{Chapter Title}
-% \chapterauthors{G. Alvarez and R. K. Watts
-% \chapteraffil{Carnegie Mellon University, Pittsburgh, Pennsylvania}
-
-% For separate affiliations you can use \affilmark{(number)} after
-% the name of a particular author and before the matching affiliation:
-
-% For instance:
-% \chapter{Chapter Title}
-% \chapterauthors{George Smeal, Ph.D.\affilmark{1}, Sally Smith,
-% M.D.\affilmark{2}, and Stanley Kubrick\affilmark{1}
-% \chapteraffil{\affilmark{1}AT\&T Bell Laboratories
-% Murray Hill, New Jersey\\
-% \affilmark{2}Harvard Medical School,
-% Boston, Massachusetts}
-% }
-
-%%%%%%%%%%%%%%%%%%%%%%%
-
-%% short version of section head, or one without \\ supplied in sq. brackets.
-
-% \section[Introduction and fugue]{Introduction\\ and fugue}
-% \subsection[This is the subsection]{This is the\\ subsection}
-% \subsubsection{This is the subsubsection}
-% \paragraph{This is the paragraph}
-
-% \begin{chapreferences}{widest label}
-% \bibitem{<label>}Reference
-% \end{chapreferences}
-
-% optional chapter bibliography using BibTeX,
-% must also have \usepackage{chapterbib} before \begin{document}
-% Must use root file with \include{chap1}, \include{chap2} form.
-%\bibliographystyle{plain}
-%\bibliography{<your .bib file name>}
-
-% optional appendix at the end of a chapter:
-% \chapappendix{<chap appendix title>}
-% \chapappendix{} % no title
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% End Matter >>>>>>>>>>>>>>>>>>
-
-% \appendix{<optional title for appendix at end of book>}
-% \appendix{} % appendix without title
-
-% \begin{references}{<widest label>}
-% \bibitem{sampref}Here is reference.
-% \end{references}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Optional Problem Sets: Can use this at the end of each chapter or at end
-%% of book
-
-% \begin{problems}
-% \prob
-% text
-
-% \prob
-% text
-
-% \subprob
-% text
-
-% \subprob
-% text
-
-% \prob
-% text
-% \end{problems}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Optional Exercises: Can use this at the end of each chapter or at end
-%% of book
-
-% \begin{exercises}
-% \exer
-% text
-
-% \exer
-% text
-
-% \subexer
-% text
-
-% \subexer
-% text
-
-% \exer
-% text
-% \end{exercises}
+%\chapter[Modem]
+%{Hardware\\ modem}
+%\input{chapter/fiberoptic.tex}
 
 
 \bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv,windows,linux,mac,bsd,android,dosunix,software,definisi,kernel,hardware}
+\bibliography{IEEEabrv,windows,linux,mac,bsd,android,dosunix,software,definisi,kernel,hardware,fiberoptic}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% INDEX: Use only one index command set:
 
-%% 1) The default LaTeX Index
 \printindex
 
-%% 2) For Topic index and Author index:
 
-% \usepackage{multind}
-% \makeindex{topic}
-% \makeindex{authors}
-% \begin{document}
-% ...
-% add index terms to your book, ie,
-% \index{topic}{A term to go to the topic index}
-% \index{authors}{Put this author in the author index}
-
-%% (these are Wiley commands)
-%\multiprintindex{topic}{Topic index}
-%\multiprintindex{authors}{Author index}
 
 \end{document}
